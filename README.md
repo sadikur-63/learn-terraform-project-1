@@ -6,10 +6,12 @@ Hands-on practice repository for learning Infrastructure as Code (IaC) using Ter
 This repository contains Terraform configurations to practice provisioning AWS infrastructure, managing providers, and setting up remote backends.
 
 ## 📁 Repository Structure
-* `01-benefits-iac/` - Intro to IaC principles
+* `.env` - Environment variables for AWS credentials
+* `.gitignore` - Git ignore rules for state files and sensitive credentials
+* `01-Benefits-iac/` - Intro to IaC principles
 * `02-hcl/` - HashiCorp Configuration Language syntax basics
 * `03-first-tf-project/` - Initial Terraform project setup
-* `04-backends/` - Configuring S3 remote backends & state locking
+* `04-backends/` - Configuring AWS provider, S3 remote backend, and state locking
 
 ## 🚀 Prerequisites
 * [Terraform CLI](https://developer.hashicorp.com/terraform/downloads) installed
